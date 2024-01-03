@@ -1,2 +1,0 @@
-my deploy
-script
