@@ -1,0 +1,3 @@
+hello
+deploy
+script
