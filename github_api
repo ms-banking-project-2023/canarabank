@@ -1,0 +1,9 @@
+import requests
+response = requests.get("https://api.github.com/repos/MithunTechnologiesDevOps/maven-web-application/pulls")
+#print(response.json())
+details_in_json = response.json()
+print(details_in_json[2]["user"]["login"])
+
+response1 = requests.get("https://api.github.com/repos/ms-banking-project-2023/canarabank/contents/")
+repo_content = response1.json()
+print(repo_content[1]["name"])
